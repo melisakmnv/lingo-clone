@@ -1,13 +1,11 @@
-import React from 'react'
+import { LayoutProps } from '@/interfaces/layout';
+
 import { Header } from './hearder';
 import { Footer } from './footer';
 
 
-type Props = {
-    children: React.ReactNode;
-}
 
-const MarketingLayout = ({ children }: Props) => {
+const MarketingLayout = ({ children }: LayoutProps) => {
     return (
         <div className='min-h-screen flex flex-col'>
             <Header/>

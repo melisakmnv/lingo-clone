@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
+} */
+
+
+html, body, :root {
+    @apply h-full;
 }
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
