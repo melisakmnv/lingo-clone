@@ -1,5 +1,5 @@
 
-import { Button } from "@/components/button";
+import { Button } from "@/components/ui/button";
 import { ClerkLoaded, ClerkLoading, SignInButton, SignUpButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
 import Image from "next/image";

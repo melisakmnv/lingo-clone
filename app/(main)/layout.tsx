@@ -1,5 +1,5 @@
 import { MobileHeader } from "@/components/MobileHeader"
-import { Sidebar } from "@/components/ui/sidebar"
+import { Sidebar } from "@/components/Sidebar"
 import { LayoutProps } from "@/interfaces/layout"
 
 
