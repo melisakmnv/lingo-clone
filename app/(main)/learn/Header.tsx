@@ -22,4 +22,4 @@ export const Header = ({ title }: HeaderProps) => {
             <div />
         </div>
     )
-};
+}
