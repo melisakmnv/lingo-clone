@@ -1,7 +1,8 @@
-import { MobileHeader } from "@/components/MobileHeader"
-import { Sidebar } from "@/components/Sidebar"
-import { LayoutProps } from "@/interfaces/layout"
 
+import { MobileHeader } from "@/components/MobileHeader";
+import { Sidebar } from "@/components/Sidebar";
+
+import { LayoutProps } from "@/interfaces/layout";
 
 const MainLayout = ({ children }: LayoutProps) => {
     return (
@@ -9,7 +10,7 @@ const MainLayout = ({ children }: LayoutProps) => {
             <MobileHeader />
             <Sidebar className="hidden lg:flex" />
             <main className="lg:pl-[256px] h-full pt-[50px] lg:pt-0">
-                <div className="bg-red-500 h-full">
+                <div className="max-w-[1056px] mx-auto pt-6 h-full">
                     {children}
                 </div>
             </main>
@@ -17,4 +18,4 @@ const MainLayout = ({ children }: LayoutProps) => {
     )
 }
 
-export default MainLayout
+export default MainLayout;
